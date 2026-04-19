@@ -255,9 +255,7 @@
     if (componentWrapper) {
       // Configure navigation if elements exist
       const nextEl = componentWrapper.querySelector('[data-slider="next"]');
-      const prevEl = componentWrapper.querySelector(
-        '[data-slider="previous"]'
-      );
+      const prevEl = componentWrapper.querySelector('[data-slider="previous"]');
 
       if (nextEl && prevEl) {
         config.navigation = { nextEl, prevEl };
@@ -265,7 +263,7 @@
 
       // Configure pagination if element exists
       const paginationEl = componentWrapper.querySelector(
-        '[data-slider="pagination"]'
+        '[data-slider="pagination"]',
       );
 
       if (paginationEl) {
